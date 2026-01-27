@@ -1,0 +1,5 @@
+name=(input("enter username:"))
+age=int(input("enter age:"))
+year=str( ( 2026 - age ) + 100 )
+print(year)
+print( name + " will be 100 years old in the year " + year )
